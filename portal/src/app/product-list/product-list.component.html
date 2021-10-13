@@ -1,0 +1,60 @@
+<!-- <mat-card fxFlex="25%;" fxFlex.md="30%" fxFlex.sm="100%" class="example-card">
+
+    <img mat-card-image src="../../assets/brahma-light.jpg" alt="Photo of a Shiba Inu">
+   
+   
+    <mat-card-content class="control">
+      <section>
+        <div class="example-button-row">
+          <div class="example-flex-container">
+            <div class="example-button-container">
+              <button mat-fab class="buttonIncreaseDecrement">
+                -
+              </button>
+            </div>
+ 
+            <mat-form-field appearance="">
+              <mat-label>Input</mat-label>
+             
+            </mat-form-field> 
+
+            <input matInput class="inpitValue" type="number" min="0">
+
+
+            <div class="example-button-container">
+              <button mat-fab alt="value increase" class="buttonIncreaseDecrement">
+                +
+              </button>
+            </div>
+          </div>
+        </div>
+      </section>
+    </mat-card-content>
+  </mat-card> -->
+
+  <div class="outerContainer">
+    <div div fxLayout="row"  fxLayout.xs="column" fxLayoutGap="10px" class="container">
+      <div fxLayout="column" fxFlex="24%" fxFlex.lt-md="45%" fxFlex.xs="90%" fxLayoutGap="5%" class="box" *ngFor="let product of listProduct">
+        <img mat-card-image src="../../assets/{{product.URL}}" alt="modelo_negra" class="imageBeer">
+        <!-- <div class="example-button-container">
+          <button mat-fab class="buttonIncreaseDecrement">
+            -
+          </button>
+        </div>
+        <div class="example-button-container">
+          <button mat-fab alt="value increase" class="buttonIncreaseDecrement">
+            +
+          </button>
+        </div>
+
+      </div> -->
+
+      
+      <!-- <div fxLayout="column" fxFlex="23%" fxFlex.lt-md="45%" fxFlex.xs="90%" fxLayoutGap="5%" class="box">1</div>
+      <div fxLayout="column" fxFlex="23%" fxFlex.lt-md="45%" fxFlex.xs="90%" fxLayoutGap="5%" class="box">1</div>
+      <div fxLayout="column" fxFlex="23%" fxFlex.lt-md="45%" fxFlex.xs="90%" fxLayoutGap="5%" class="box">1</div> -->
+    </div>
+  </div>
+  
+
+

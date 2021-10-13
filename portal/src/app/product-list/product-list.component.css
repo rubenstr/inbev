@@ -99,8 +99,61 @@
   }
 
   .imageBeer{
+    object-fit : contain ;
     max-width: 450px;
   }
+
+  .text-title {
+    margin-left: 10px;
+    font-weight: bold;
+    font-size: 20px;
+
+    align-content: center;
+    color: black;
+    vertical-align: middle;
+  }
+
+  .text-unit {
+    margin-left: 10px;
+    font-weight: normal;
+    font-size: 18px;
+
+    align-content: center;
+    color: rgb(53, 52, 52);
+    vertical-align: middle;
+  }
+
+  .text-amount {
+    margin-left: 10px;
+    font-weight: normal;
+    font-size: 18px;
+
+    align-content: center;
+    color: black;
+    vertical-align: middle;
+  }
+
+  .text-promotion{
+    margin-left: 10px;
+    font-weight: normal;
+    font-size: 18px;
+
+    align-content: center;
+    color: green;
+    vertical-align: middle;
+  }
+
+  .text-details{
+    margin-left: 10px;
+    margin-bottom: 30px;
+    font-weight: normal;
+    font-size: 18px;
+
+    align-content: center;
+    color: blue;
+    vertical-align: middle;
+  }
+
 
 
 

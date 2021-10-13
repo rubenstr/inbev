@@ -7,7 +7,7 @@
       "amount":"RD$32.00/Unit",
       "price":"",
       "promotion":"Buy 3, get 1 free ",
-      "details":"",
+      "details":"View details",
       "URL":"modelo_negra.png"
     },
     {
@@ -17,7 +17,7 @@
         "amount":"RD$43.00/Unit",
         "price":"",
         "promotion":"Buy 3, get 1 free Red Bull or 2 Pepsi Black",
-        "details":"",
+        "details":"View details",
         "URL":"presidente.png"
       },
       {
@@ -27,7 +27,7 @@
         "amount":"RD$43.00/Unit",
         "price":"",
         "promotion":"For every 5 you buy, get up to 2 free",
-        "details":"",
+        "details":"View details",
         "URL":"brahma-light.png"
       },
       {
@@ -37,7 +37,7 @@
         "amount":"RD$26.00/Unit",
         "price":"",
         "promotion":"For every 5 you buy, get up to 3 free Red Bull or 2 free Pepsi Black",
-        "details":"",
+        "details":"View details",
         "URL":"budweiser.png"
       }
   ]

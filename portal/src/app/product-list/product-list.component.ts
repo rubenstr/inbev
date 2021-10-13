@@ -13,6 +13,7 @@ export class ProductListComponent implements OnInit {
 
  listProduct = [];
  URL = environment.apiUrl;
+ amount: number = 5;
 
   constructor(private productList: ProductListService) { 
   //  console.log(environment.apiUrl)

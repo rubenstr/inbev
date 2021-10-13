@@ -36,31 +36,22 @@
     <div div fxLayout="row"  fxLayout.xs="column" fxLayoutGap="10px" class="container">
       <div fxLayout="column" fxFlex="24%" fxFlex.lt-md="45%" fxFlex.xs="90%" fxLayoutGap="5%" class="box" *ngFor="let product of listProduct">
         <img mat-card-image src="../../assets/{{product.URL}}" alt="modelo_negra" class="imageBeer">
-        <div>
-         <div class="text-title">{{product.title}} </div> <br>
-         <div class="text-unit">{{product.unit}} </div> <br>
-         <div class="text-amount">{{product.amount}} </div> <br>
-         <div class="text-promotion">{{product.promotion}} </div> <br>
-         <div class="text-details"> <a href="url">{{product.details}} </a>  </div>
+        <div class="description">
+            <div class="text-title">{{product.title}} </div> 
+            <div class="text-unit">{{product.unit}} </div> 
+            <div class="text-amount">{{product.amount}} </div> 
+            <div class="text-promotion">{{product.promotion}} </div> 
+            <div class="text-details"> <a href="url">{{product.details}} </a>  </div>
         </div>
-        <!-- <div class="example-button-container">
-          <button mat-fab class="buttonIncreaseDecrement">
-            -
-          </button>
+        <footer>
+        <div class="button-container">
+          <button mat-fab> - </button>
+          <input class="inpitValue" type="number" min="0" [value]="amount">4
+          <button mat-fab class="buttonIncreaseDecrement"> +</button>
+          <button mat-button color="primary" class="addbutton">ADD</button>
         </div>
-        <div class="example-button-container">
-          <button mat-fab alt="value increase" class="buttonIncreaseDecrement">
-            +
-          </button>
-        </div>
-
-      </div> -->
-
-
-      <!-- <div fxLayout="column" fxFlex="23%" fxFlex.lt-md="45%" fxFlex.xs="90%" fxLayoutGap="5%" class="box">1</div>
-      <div fxLayout="column" fxFlex="23%" fxFlex.lt-md="45%" fxFlex.xs="90%" fxLayoutGap="5%" class="box">1</div>
-      <div fxLayout="column" fxFlex="23%" fxFlex.lt-md="45%" fxFlex.xs="90%" fxLayoutGap="5%" class="box">1</div> -->
-    </div>
+      </footer>
+  </div>
   </div>
   
 

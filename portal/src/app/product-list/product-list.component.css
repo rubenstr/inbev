@@ -25,6 +25,9 @@
     padding: 0px;
     margin: 0px;
     border: 1px solid #b6b6b6;
+    box-shadow: 0px 2px #888888;
+
+  
   }
 
   .imageBeer{
@@ -124,6 +127,13 @@
 
   .mat-fab .mat-button-wrapper{
     padding: 0px !important;
+  }
+
+  .iconRecycling{
+    width: 5px !important;
+    height: 5px;
+    color: blue;
+    font-size: 15px
   }
 
 

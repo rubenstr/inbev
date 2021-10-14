@@ -38,7 +38,9 @@
         <img mat-card-image src="../../assets/{{product.URL}}" alt="modelo_negra" class="imageBeer">
         <div class="description">
             <div class="text-title">{{product.title}} </div> 
-            <div class="text-unit">{{product.unit}} </div> 
+            <div class="text-unit">{{product.unit}} 
+              <mat-icon class="iconRecycling"  *ngIf="product.title !== 'Modelo Negra'" aria-hidden="false" aria-label="recycling">recycling</mat-icon> 
+            </div> 
             <div class="text-amount">{{product.amount}} </div> 
             <div class="text-promotion">{{product.promotion}} </div> 
             <div class="text-details"> <a href="url">{{product.details}} </a>  </div>

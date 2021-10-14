@@ -14,7 +14,7 @@ export class ProductListComponent implements OnInit {
 
  listProduct = [];
  URL = environment.apiUrl;
- amount: number = 5;
+ amount: number = 0;
 
   constructor(private productList: ProductListService) { 
   //  console.log(environment.apiUrl)
@@ -24,12 +24,17 @@ export class ProductListComponent implements OnInit {
     this.getData();
   }
 
-
-    getData() {
-   this.productList.getProductors()
-   .subscribe(dados => this.listProduct = dados);
+  getData() {
+    this.productList.getProductors()
+      .subscribe(dados => this.listProduct = dados);
   }
 
-  
+  decreases(){
+    this.amount--;
+  }
+
+  increment(){
+    this.amount++;
+  }
 
 }

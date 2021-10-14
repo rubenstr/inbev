@@ -47,9 +47,9 @@
         </div>
         <footer>
         <div class="button-container">
-          <button mat-fab> - </button>
-          <input class="inpitValue" type="number" min="0" [value]="amount">4
-          <button mat-fab class="buttonIncreaseDecrement"> +</button>
+          <button mat-fab (click)="decreases()"> - </button>
+          <input class="inpitValue" type="number" min="0" [value]="amount">
+          <button mat-fab (click)="increment()" class="buttonIncreaseDecrement"> +</button>
           <button mat-button color="primary" class="addbutton">ADD</button>
         </div>
       </footer>

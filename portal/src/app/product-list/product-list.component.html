@@ -39,7 +39,7 @@
         <div class="description">
             <div class="text-title">{{product.title}} </div> 
             <div class="text-unit">{{product.unit}} 
-              <mat-icon class="iconRecycling"  *ngIf="product.title !== 'Modelo Negra'" aria-hidden="false" aria-label="recycling">recycling</mat-icon> 
+              <mat-icon class="iconRecycling"  *ngIf="product.recyclable" aria-hidden="false" aria-label="recycling">recycling</mat-icon> 
             </div> 
             <div class="text-amount">{{product.amount}} </div> 
             <div class="text-promotion">{{product.promotion}} </div> 
